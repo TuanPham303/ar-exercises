@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+@store = Store.create(name: 'HMthth',annual_revenue: 190000)
+pp @store.errors
